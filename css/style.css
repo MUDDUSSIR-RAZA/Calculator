@@ -36,21 +36,13 @@ footer {
     right: 0;
 }
 
-/* Styling for main content section */
-main {
-    height: calc(100vh - 13vh);
-    margin-top: 6.2vh;
-    margin-bottom: 6.2vh;
-}
-
 /* Styling for calculator container */
 .container {
-    height: calc(100vh - 13vh);
     display: flex;
     justify-content: center;
     align-items: center;
-    /*border: #f9b233 solid; */
-}
+    height: 100vh;
+    }
 
 /* table {
     background-color: #f8f8f8;
