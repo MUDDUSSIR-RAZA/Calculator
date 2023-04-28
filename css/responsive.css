@@ -1,0 +1,28 @@
+@media (max-width :355px) {
+header,
+footer {
+    height: 5vh;
+    font-size: 12px;
+}
+
+    input {
+        width: 177px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
+
+    #clearall {
+        width: 97px;
+      }
+
+      #plus {
+        height: 100px;
+      }
+
+      button {
+        padding: 13px 14px;
+      }
+}
