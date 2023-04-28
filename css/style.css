@@ -6,7 +6,8 @@
     font-family: "Orbitron", sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -50,7 +51,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 
 /* table {
