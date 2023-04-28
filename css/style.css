@@ -36,12 +36,22 @@ footer {
     right: 0;
 }
 
+main {
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red solid;
+}
+
 /* Styling for calculator container */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100%; */
+    width: 100%;
+    border: #07ee12 solid;
     }
 
 /* table {
@@ -57,6 +67,7 @@ table {
     padding: 15px 17px;
     border-radius: 7px;
     animation: shadow 30s infinite;
+    border: #07ee12 solid;
 }
 
 /* Keyframes for box-shadow animation */
