@@ -27,76 +27,75 @@
             <table>
                 <tr>
                     <td colspan="4">
-                        <input type="text" readonly>
+                        <input id="input" type="text" readonly>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <button id="clearall">
+                        <button onclick="clearAll()" id="clearall">
                             Clear All
                         </button>
                     </td>
                     <td>
-                        <button>
+                        <button onclick="clearInput()">
                             <img src="./img/clear.png" alt="">
-                            <!-- Clear -->
                         </button>
                     </td>
                     <td>
-                        <button> / </button>
+                        <button onclick="inputValue('/')"> / </button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button> 7 </button>
+                        <button onclick="inputValue('7')"> 7 </button>
                     </td>
                     <td>
-                        <button> 8 </button>
+                        <button onclick="inputValue('8')"> 8 </button>
                     </td>
                     <td>
-                        <button> 9 </button>
+                        <button onclick="inputValue('9')"> 9 </button>
                     </td>
                     <td>
-                        <button> * </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button> 4 </button>
-                    </td>
-                    <td>
-                        <button> 5 </button>
-                    </td>
-                    <td>
-                        <button> 6</button>
-                    </td>
-                    <td>
-                        <button> - </button>
+                        <button onclick="inputValue('*')"> * </button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button> 1 </button>
+                        <button onclick="inputValue('4')"> 4 </button>
                     </td>
                     <td>
-                        <button> 2 </button>
+                        <button onclick="inputValue('5')"> 5 </button>
                     </td>
                     <td>
-                        <button> 3 </button>
+                        <button onclick="inputValue('6')"> 6</button>
+                    </td>
+                    <td>
+                        <button onclick="inputValue('-')"> - </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="inputValue('1')"> 1 </button>
+                    </td>
+                    <td>
+                        <button onclick="inputValue('2')"> 2 </button>
+                    </td>
+                    <td>
+                        <button onclick="inputValue('3')"> 3 </button>
                     </td>
                     <td rowspan="2">
-                        <button id="plus"> +</button>
+                        <button id="plus" onclick="inputValue('+')"> +</button>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button>0</button>
+                        <button onclick="inputValue('0')">0</button>
                     </td>
                     <td>
-                        <button>.</button>
+                        <button onclick="inputValue('.')">.</button>
                     </td>
                     <td>
-                        <button>=</button>
+                        <button onclick="calculateResult()">=</button>
                     </td>
                 </tr>
             </table>
