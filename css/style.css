@@ -6,6 +6,15 @@
     font-family: "Orbitron", sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+
 /* Setting background color for body */
 body {
     background-color: #323232;
