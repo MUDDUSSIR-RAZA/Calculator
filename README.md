@@ -11,7 +11,7 @@ To use this calculator, simply click on the buttons corresponding to the numbers
 The calculator has a simple and sleek design, with a color scheme of orange and black. The font used is "Orbitron" and the animation of the calculator is made using CSS.
 
 ## Credits
-This calculator was created by Muhammad Muddussir Raza as part of a project or assignment.
+This calculator was created by **MUHAMMAD MUDDUSSIR RAZA** as part of a project or assignment.
 
 ## License
 This project is licensed under the MIT License.
