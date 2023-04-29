@@ -17,7 +17,7 @@ let calculateResult = () => {
 };
 
 let numPad = event => {
-        if (event.key >= "0" && event.key <= "9" || event.key === "." || event.key === "+" || event.key === "-" || event.key === "*" || event.key === "/") {
+        if ((event.key (>= "0" && <= "9")) || (event.key === ".") || (event.key === "+") || (event.key === "-") || (event.key === "*") || (event.key === "/")) {
             inputValue(event.key);
             console.log(input.value);
         } 
