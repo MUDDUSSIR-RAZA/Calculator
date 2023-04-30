@@ -16,15 +16,15 @@ let calculateResult = () => {
     input.value = eval(input.value);
 };
 
-//let numPad = event => {
-      //  if ((event.key (>= "0" && <= "9")) || (event.key === ".") || (event.key === "+") || (event.key === "-") || (event.key === "*") || (event.key === "/")) {
-         //   inputValue(event.key);
-          //  console.log(input.value);
-     //   } 
-     //   if (event.key === "Enter") {
-          //  calculateResult();
-         //   console.log(input.value);
-        //}
-//}
+let numPad = event => {
+        if (event.key (>= "0" && <= "9") || event.key === "." || event.key === "+" || event.key === "-" || event.key === "*" || event.key === "/") {
+            inputValue(event.key);
+            console.log(input.value);
+        } 
+        if (event.key === "Enter") {
+            calculateResult();
+            console.log(input.value);
+        }
+}
 
 document.addEventListener("keyup", numPad);
